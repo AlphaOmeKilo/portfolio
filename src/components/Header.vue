@@ -2,15 +2,15 @@
     <header>
         <div id="nav" class="header uk-flex uk-flex-bottom uk-position-relative">
             <ul class="menu uk-flex" uk-sticky>
+                <li></li>
                 <li><router-link to="/">Home</router-link></li>
                 <li><router-link to="/about">About</router-link></li>
-                <li>Work</li>
-                <li>Contact</li>
-                <li>Random</li>
+                <li><router-link to="/work">Work</router-link></li>
+                <li><router-link to="/contact">Contact</router-link></li>
+                <li><router-link to="/random">Random</router-link></li>
                 
             </ul>
         </div>
-            <!-- <router-link to="/">Home</router-link> | -->
     </header>
 </template>
 
@@ -141,7 +141,7 @@ $(document).ready(function() {
     width: 0;
 }
 
-.menu li {
+.menu li a {
     text-transform: uppercase;
     color: #FFF;
     margin-right: 60px;

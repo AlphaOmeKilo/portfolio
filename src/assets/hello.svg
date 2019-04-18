@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="10cm" height="3cm" viewBox="0 0 1000 300"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+     <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#85D8CE" offset="0%"></stop>
+            <stop stop-color="#4B8EB3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Daily-UI-003" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal" font-family="Lato-Regular, Lato" letter-spacing="3" font-size="120">
+        <g id="Svg.html-Shape" stroke="url(#linearGradient-1)" stroke-width="2" fill="#FFFFFF">
+            <text x="250" y="180"
+                    font-family="Verdana" font-size="64" fill="#000000" >
+                Hello.
+            </text>
+        </g>
+    </g>
+
+</svg>
